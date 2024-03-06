@@ -39,6 +39,7 @@
 }
 .rightDiv .rating p{
     margin-right: 10px;
+    color: #7e7b7b;
 }
 .prodContainer {
     border: 1px solid #cfcfcf;
@@ -47,6 +48,12 @@
     flex-direction: column;
     gap: 20px;
     border-radius: 2px;
+}
+.prodContainer p {
+    color: #7e7b7b;
+}
+.prodContainer b {
+    color: black;
 }
 
 
