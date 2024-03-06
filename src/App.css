@@ -1,0 +1,29 @@
+body, h1,h2,h3,p {
+    margin: 0;
+    font-family: "Sarabun", sans-serif;
+}
+
+.App {
+    width: 100vw;
+}
+
+
+.mainContainer {
+    /* width: 100vw; */
+    padding-top: 4rem;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 2% 10% 0 10%;
+    box-sizing: border-box;
+}
+
+.btnBuy {
+    border: 1px solid #cfcfcf;
+    padding: 8px 20px 8px 20px;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}

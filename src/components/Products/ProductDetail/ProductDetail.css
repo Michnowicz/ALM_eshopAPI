@@ -1,0 +1,59 @@
+
+
+.Detail {
+    height: 100vh;
+}
+.Detail .mainContainer {
+    height: 100%;
+}
+.Detail .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.prod {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+.leftDiv {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.leftDiv img {
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
+.rightDiv {
+    border-left: 2px solid #cfcfcf;
+    padding: 20px;
+}
+.rightDiv .rating {
+    display: flex;
+}
+.rightDiv .rating p{
+    margin-right: 10px;
+}
+.prodContainer {
+    border: 1px solid #cfcfcf;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 2px;
+}
+
+
+.ProdBtn button {
+    border: 1px solid #cfcfcf;
+    padding: 8px 20px 8px 20px;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
