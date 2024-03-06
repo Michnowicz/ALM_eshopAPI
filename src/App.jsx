@@ -17,10 +17,6 @@ function App() {
     .then((response) => setData(response))
   },[])
 
-  useEffect(()=>{
-    console.log(data);
-  },[data])
-
   const pages = createBrowserRouter([
     {
       path:"/",

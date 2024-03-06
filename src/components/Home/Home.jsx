@@ -7,18 +7,22 @@ export default function Home({data}) {
     let [select, setSelect] = useState(0)
     let [position, setPosition] = useState(0)
 
+
     useEffect(()=>{
+        console.log(data)
         setTimeout(()=>{
-            if (select < (data.length-1)) {
-                setSelect(select+1)
+            // console.log("lol")
+            // console.log(select)
+            // console.log(data.length-1)
+            if (select < (data.length-1) || data.length === 0) {
                 setPosition(position+220)
+                setSelect(select+1)
             } else if (select == (data.length-1)) {
-                setSelect(0)
                 setPosition(0)
+                setSelect(0)
             }
-            console.log(select);
         },3000)
-    },[select])
+    },[select,position])
     
 
     return(
